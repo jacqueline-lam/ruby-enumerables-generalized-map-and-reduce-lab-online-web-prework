@@ -6,6 +6,7 @@ end
 # bu using yield — accepts an argument 
 def add_numbers(num1,num2)
   total = num1 + num2
+  yield 
 end
 
 add_numbers(1,2) do |tot|#block variable naemed as tot
