@@ -1,5 +1,7 @@
 def map(source_array,block)
-  #map returns a new array of manipulated elements
+  #map returns a new array of manipulated elem
+  new = []
+  new.push(source.array)
 end 
 # ArgumentError: given 1= given an argument, but code you wrote isn't expecting an argument, fix by giving map an argument 
 
