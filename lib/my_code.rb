@@ -4,6 +4,7 @@ def map(source_array,block)
   i = 0
   while i < array.length 
     new_array.push(yield(array[i]))
+    i += 1
   end 
   #new_array = sourcearray.map {|num|}
 end 
