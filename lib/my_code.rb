@@ -11,7 +11,7 @@ end
 def reduce(array, starting_value=nil) 
   #starting value default as nil until we explicitly give it a value
   if starting_value
-    sum = sv
+    sum = starting_value
     i = 0
   else
     sum = array[0]
