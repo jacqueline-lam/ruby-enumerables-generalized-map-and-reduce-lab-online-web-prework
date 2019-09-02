@@ -11,7 +11,15 @@ end
 def reduce(array, starting_value=nil) 
   #starting value default as nil until we explicitly give it a value
   if starting_value
+    num1 = sv
+    i = 0
   else
+    num1 = array[0]
+    i = 1
+  end
+  
+  while i < array.length
+    yield()
   end
     
   
