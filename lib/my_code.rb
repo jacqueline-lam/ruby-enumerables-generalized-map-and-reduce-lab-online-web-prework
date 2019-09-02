@@ -2,16 +2,7 @@
   
 end 
 
-# passing in a block to a method
-# what is a block?
-  # do => end
-  # EXAMPLE:
-  # [1,2,3].map do |num| #placeholder represents data you're working with inside of the block (each ele of this array)
-  #   num + 1 
-  # end 
 
-
-# [1,2,3].map {|num| num+1}
 
 #yield to pass
 
