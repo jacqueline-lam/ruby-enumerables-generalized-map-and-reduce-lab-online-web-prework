@@ -8,7 +8,9 @@ def map(array)
   new_array
 end 
 
-def reduce(array, starting_value=nil) # 
+def reduce(array, starting_value=nil) 
+  #starting value default as nil until we explicitly give it a value
+  
   
 end
   
