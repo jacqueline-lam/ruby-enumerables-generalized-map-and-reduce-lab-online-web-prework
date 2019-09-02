@@ -19,7 +19,7 @@ end
 add_numbers(2,2) do |x|
   puts "that adds up to #{x}"
 end
-#2 sepearate calls beind called 
+#2 sepearate calls beind called, but don't need to indeitfy inside the method, yield 
   
 
 describe 'my own map' do
