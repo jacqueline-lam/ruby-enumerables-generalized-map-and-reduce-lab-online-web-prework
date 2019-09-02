@@ -1,4 +1,4 @@
-def map(source_array,block)
+def map(source_array,block) #method map accepts array
   #map returns a new array of manipulated elem
   new_array = []
   i = 0
