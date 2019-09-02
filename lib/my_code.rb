@@ -1,7 +1,7 @@
 def map
   
 end 
-
+#given 1= given an argument 
 
 # describe 'my own map' do
 #   it "returns an array with all values made negative" do
