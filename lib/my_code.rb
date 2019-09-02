@@ -3,7 +3,10 @@
 end 
 
 
-#yield to pass
+#yield accepts an argument 
+def add_numbers(num1,num2)
+  total = num1 + num2
+end
 
 
 
