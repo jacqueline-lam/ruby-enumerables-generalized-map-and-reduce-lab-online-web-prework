@@ -19,7 +19,7 @@ end
 add_numbers(2,2) do |x|
   puts "that adds up to #{x}"
 end
-@two
+#2 sepearate calls beind called 
   
 
 describe 'my own map' do
