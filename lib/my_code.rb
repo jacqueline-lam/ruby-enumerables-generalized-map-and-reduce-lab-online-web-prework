@@ -19,7 +19,7 @@ end
 add_numbers(2,2) do |x|
   puts "that adds up to #{x}"
 end
-#2 sepearate calls beind called, but don't need to indeitfy inside the method, yield 
+#2 sepearate calls beind called, but don't need to indeitfy inside the method how many blocks we'll receive - yeild does the job
   
 
 describe 'my own map' do
