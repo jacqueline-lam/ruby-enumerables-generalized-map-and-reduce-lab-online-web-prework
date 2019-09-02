@@ -10,7 +10,7 @@ end
 
 def reduce(array, starting_value=nil) 
   #starting value default as nil until we explicitly give it a value
-  if starting_value=nil
+  if starting_value
   else
   end
     
