@@ -8,7 +8,8 @@ def add_numbers(num1,num2)
   total = num1 + num2
 end
 
-
+add_numbers(1,2) do |tot|
+  
 
 describe 'my own map' do
   it "returns an array with all values made negative" do
