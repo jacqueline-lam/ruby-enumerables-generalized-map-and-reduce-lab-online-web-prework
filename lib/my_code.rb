@@ -1,6 +1,8 @@
 def map(source_array,block)
   #map returns a new array of manipulated elem
-  new_array = sourcearray.map {|num|}
+  new_array = []
+  while 
+  #new_array = sourcearray.map {|num|}
 end 
 # ArgumentError: given 1= given an argument, but code you wrote isn't expecting an argument, fix by giving map an argument 
 
