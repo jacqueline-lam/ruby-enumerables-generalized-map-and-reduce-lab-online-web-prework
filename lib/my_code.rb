@@ -8,7 +8,7 @@ def map(source_array) #method map accepts array
     i += 1
   end
   #add each element to new array and return new array at the end
-  # loop over array 
+  # loop over array to manipulate every ele inside 
   new_array
   #new_array = sourcearray.map {|num|}
 end 
