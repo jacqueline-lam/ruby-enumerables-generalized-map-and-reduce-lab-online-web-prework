@@ -1,6 +1,6 @@
 def map(source_array) #method map accepts array
   #map returns a new array of manipulated elem
-  #pass each ele in array to a block called on map method, by calling yield method
+  #pass each ele in array to a block called on map method, by calling yield keywork and passing in each ele
   new_array = []
   i = 0
   while i < array.length 
