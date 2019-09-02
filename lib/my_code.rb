@@ -20,6 +20,7 @@ def reduce(array, starting_value=nil)
   
   while i < array.length
     #pass num1 and each ele to this block with yield keyword
+    #loop over array, pass in value of sum (sv or num1)
     sum = yield(sum, array[i])
   end
     
