@@ -8,7 +8,7 @@ def add_numbers(num1,num2)
   total = num1 + num2
   # method to know we're receiving a block, 
   # pass our yeild the arugment / data we want to use inside of the second block 
-  # yield allows you to call multiple blocks on this method.
+  # yield allows you to call multiple blocks on this method
   yield(total)
 end
 
@@ -19,6 +19,7 @@ end
 add_numbers(2,2) do |x|
   puts "that adds up to #{x}"
 end
+@two
   
 
 describe 'my own map' do
