@@ -10,6 +10,7 @@ end
 
 def reduce(array, starting_value=nil) 
   #starting value default as nil until we explicitly give it a value
+  #condition to check if we have a starting value
   if starting_value
     sum = starting_value
     i = 0
