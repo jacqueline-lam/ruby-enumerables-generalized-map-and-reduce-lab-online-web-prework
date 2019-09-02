@@ -13,7 +13,11 @@ def add_numbers(num1,num2)
 end
 
 add_numbers(1,2) do |tot|#block variable naemed as tot
-  puts "The total is #(t)"
+  puts "The total is #{t}"
+end
+
+add_numbers(2,2) do |x|
+  puts "that adds up to #{x}"
 end
   
 
