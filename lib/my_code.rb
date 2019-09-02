@@ -8,7 +8,7 @@ def add_numbers(num1,num2)
   total = num1 + num2
   # method to know we're receiving a block, 
   # pass our yeild the arugment / data we want to use inside of the second block 
-  # yield allows you to inject multiple blocks into 
+  # yield allows you to inject multiple blocks into the add_numbers method 
   yield(total)
 end
 
