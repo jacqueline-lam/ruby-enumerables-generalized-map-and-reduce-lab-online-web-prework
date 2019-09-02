@@ -13,7 +13,7 @@ def reduce(array, starting_value=nil)
   #condition to check if we have a starting value
   if starting_value
     sum = starting_value
-    i = 0
+    i = 0 #to inc. all values in array
   else
     sum = array[0]
     i = 1
