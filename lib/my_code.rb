@@ -8,7 +8,9 @@ def add_numbers(num1,num2)
   total = num1 + num2
 end
 
-add_numbers(1,2) do |tot|
+add_numbers(1,2) do |tot|#block variable naemed as tot
+  puts "The total is #(t)"
+end
   
 
 describe 'my own map' do
