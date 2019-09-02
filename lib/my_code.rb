@@ -22,7 +22,7 @@ def reduce(array, starting_value=nil)
   while i < array.length
     #pass num1 and each ele to this block with yield keyword
     #loop over array, pass in value of sum (sv or array[0]), add num to next ele in array and redefine sum 
-    # to pass two data into block,
+    # to pass two data to the block, called on our reduce method
     sum = yield(sum, array[i])
     i += 1
   end
