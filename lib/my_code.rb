@@ -6,7 +6,8 @@ end
 # bu using yield — accepts an argument 
 def add_numbers(num1,num2)
   total = num1 + num2
-  # method to know we're receiving a block, pass our yeild the arugment the data we want to use inside of the block 
+  # method to know we're receiving a block, 
+  # pass our yeild the arugment / data we want to use inside of the second block 
   yield 
 end
 
