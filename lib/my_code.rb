@@ -1,5 +1,6 @@
 def map(source_array,block) #method map accepts array
   #map returns a new array of manipulated elem
+  #pass each ele in array to a block called on 
   new_array = []
   i = 0
   while i < array.length 
