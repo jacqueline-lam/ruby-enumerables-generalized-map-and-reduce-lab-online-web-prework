@@ -6,7 +6,7 @@ end
 # what is a block?
   # do => end
   # EXAMPLE:
-  # [1,2,3].map do |num|
+  # [1,2,3].map do |num| #placehold
   #   num + 1 
   # end 
 
