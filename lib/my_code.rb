@@ -2,25 +2,6 @@
   
 end 
 
-#Pass blocks with methods ->
-# bu using yield — accepts an argument 
-def add_numbers(num1,num2)
-  total = num1 + num2
-  # method to know we're receiving a block, 
-  # pass our yeild the arugment / data we want to use inside of the second block 
-  # yield allows you to call multiple blocks on this method
-  yield(total)
-end
-
-add_numbers(1,2) do |tot|#block variable naemed as tot
-  puts "The total is #{t}"
-end
-
-add_numbers(2,2) do |x|
-  puts "that adds up to #{x}"
-end
-#2 sepearate calls beind called, but don't need to indeitfy inside the method how many blocks we'll receive - yeild does the job
-  
 
 describe 'my own map' do
   it "returns an array with all values made negative" do
