@@ -6,9 +6,10 @@ end
 # what is a block?
   # do => end
   # EXAMPLE:
-  # [1,2,3].map do |num| #placeholder is 
+  # [1,2,3].map do |num| #placeholder represents each ele of this array (n)
   #   num + 1 
   # end 
+
 
 # [1,2,3].map {|num| num+1}
 
