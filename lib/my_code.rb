@@ -3,7 +3,7 @@ def map(source_array,block)
   new_array = []
   i = 0
   while i < array.length 
-  
+end
   #new_array = sourcearray.map {|num|}
 end 
 # ArgumentError: given 1= given an argument, but code you wrote isn't expecting an argument, fix by giving map an argument 
