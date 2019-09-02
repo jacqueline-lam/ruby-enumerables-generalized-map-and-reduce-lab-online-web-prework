@@ -19,7 +19,8 @@ def reduce(array, starting_value=nil)
   end
   
   while i < array.length
-    yield()
+    #pass each ele to this block with yield keyword
+    yield(num1,)
   end
     
   
