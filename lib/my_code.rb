@@ -8,7 +8,9 @@ def map(array)
   new_array
 end 
 
-def 
+def reduce(array)
+  
+end
   
   
 ###
